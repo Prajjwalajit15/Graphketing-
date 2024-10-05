@@ -1,0 +1,100 @@
+ 
+.SideHeader-container {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #184691;  
+    color: white; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);  
+  }
+  
+  .Sd-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;  
+  }
+  
+  .Sd-elements img {
+    border-radius: 50%;  
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+  }
+  
+  .filter-input input {
+    padding: 10px;  
+    border: none;  
+    border-radius: 4px; 
+    margin-bottom: 10px; 
+    font-size: 14px;  
+  }
+  
+  .filter-dropdown {
+    margin-bottom: 10px;  
+  }
+  
+  .filter-dropdown label {
+    font-weight: bold;  
+  }
+  
+  .filter-dropdown select {
+    padding: 10px; 
+    border: none;  
+    border-radius: 4px; 
+    font-size: 14px;  
+    background-color: #f0f0f0;  
+    color: #333;  
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .filter-dropdown select:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+  }
+  
+  button {
+    padding: 10px; /* Increased padding */
+    border: none; /* Removed border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #0bd45b; /* Button color */
+    color: white; /* White text */
+    font-size: 14px; /* Increased font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: #e64a19; /* Darker button color on hover */
+  }
+  
+  .menu-options {
+    margin-top: 20px; /* Spacing above menu options */
+    font-size: 14px; /* Increased font size */
+  }
+  
+  .menu-options p {
+    margin: 10px 0; /* Spacing between menu items */
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+  }
+  
+  .menu-options p:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Highlight on hover */
+  }
+  
+  .menu-options img {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  

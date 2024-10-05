@@ -1,0 +1,90 @@
+.user-list-container {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #184691;
+    color: white;
+  }
+  
+  .user-table td {
+    background-color: #f9f9f9;
+    max-width: 100px; /* Ensure the status column isn't hidden */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Avoid text overflow */
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .details-button {
+    background-color: #184691;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-button:hover {
+    background-color: #132a55;
+  }
+  
+  /* Status circle styles */
+  .status-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .status-circle.active {
+    background-color: green;
+  }
+  
+  .status-circle.inactive {
+    background-color: red;
+  } 
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    background-color: #184691;
+    color: rgb(98, 95, 95);
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .page-button:hover {
+    background-color: #132a55;
+  }
+  
+  .page-button.active {
+    background-color: #132a55;
+    font-weight: bold;
+  }
+  
